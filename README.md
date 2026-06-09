@@ -26,3 +26,18 @@ This project simulates a real-world Git team workflow with feature branches, pul
 
 ## Version
 v1.0
+def load_dashboard():
+    print("Dashboard Loaded")
+    print("Showing user stats...")
+
+if __name__ == "__main__": 
+    load_dashboard()
+
+def get_data():
+    return {
+        "status": "success",
+        "data": [1, 2, 3, 4]
+    }
+
+if __name__ == "__main__":
+    print(get_data())
